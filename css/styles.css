@@ -64,6 +64,10 @@ align-items: center;
 .contact-info .item + .item {
     margin-left: 50px;
 }
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
 .logo {
     font-family: Raleway;
     font-weight: bold;
@@ -235,6 +239,35 @@ align-items: center;
 .member-cnt {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.socials-icons {
+    display: inline-flex;
+}
+.socials-icons-item.item:not(:last-child) {
+    margin-right: 10px;
+}
+.socials-icons-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--primary-white-color);
+}
+.socials-icons-link:hover, 
+.socials-icons-link:focus {
+    background-color: var(--accent-color);
+}
+.socials-icons-link:hover .socials-icons-svg, 
+.socials-icons-link:focus .socials-icons-svg {
+    fill: var(--primary-white-color);
+    
+}
+.socials-icons-svg {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
 }
 .contacs-footer {
     background: #2F303A;
