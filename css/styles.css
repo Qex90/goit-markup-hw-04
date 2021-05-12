@@ -175,6 +175,19 @@ align-items: center;
     letter-spacing: 0.03em;
     text-align: left;  
 }
+.features-box-color {
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-icon-svg {
+    width: 70px;
+    height: 70px;
+
+}
 .our-work  {
     font-size: 36px;    
     font-weight: 700;
